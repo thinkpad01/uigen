@@ -1,0 +1,112 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a pricing card component
+            - img [ref=e60]
+          - generic [ref=e81]:
+            - img [ref=e84]
+            - generic [ref=e89]:
+              - generic [ref=e92]: Creating /App.jsx
+              - separator [ref=e93]
+              - generic [ref=e96]: Creating /components/PricingCard.jsx
+              - separator [ref=e97]
+              - generic [ref=e98]:
+                - paragraph [ref=e99]: "Done! Created a pricing card component with:"
+                - list [ref=e100]:
+                  - listitem [ref=e101]:
+                    - text: Reusable
+                    - code [ref=e107]: PricingCard
+                    - text: component with customizable name, price, description, and features
+                  - listitem [ref=e103]: Highlight option to showcase the most popular plan
+                  - listitem [ref=e104]: Check icons for features using lucide-react
+                  - listitem [ref=e105]: Hover scale effect and responsive grid layout
+                  - listitem [ref=e106]: Three example pricing tiers in the App
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [active] [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e108]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+              - img [ref=e119]
+              - generic [ref=e121]: components
+            - generic [ref=e124] [cursor=pointer]:
+              - img [ref=e125]
+              - generic [ref=e130]: PricingCard.jsx
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e133]
+            - generic [ref=e138]: App.jsx
+        - separator [ref=e139]
+        - code [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e147]:
+              - generic [ref=e150]: "1"
+              - generic [ref=e154]: "2"
+              - generic [ref=e156]: "3"
+              - generic [ref=e158]: "4"
+              - generic [ref=e160]: "5"
+              - generic [ref=e163]: "6"
+              - generic [ref=e165]: "7"
+              - generic [ref=e168]: "8"
+              - generic [ref=e170]: "9"
+              - generic [ref=e172]: "10"
+              - generic [ref=e174]: "11"
+              - generic [ref=e177]: "12"
+              - generic [ref=e179]: "13"
+              - generic [ref=e181]: "14"
+              - generic [ref=e183]: "15"
+              - generic [ref=e186]: "16"
+              - generic [ref=e188]: "17"
+              - generic [ref=e190]: "18"
+              - generic [ref=e192]: "19"
+              - generic [ref=e194]: "20"
+              - generic [ref=e196]: "21"
+              - generic [ref=e198]: "22"
+              - generic [ref=e200]: "23"
+            - generic [ref=e349]:
+              - generic [ref=e351]: import PricingCard from '@/components/
+              - generic [ref=e353]: PricingCard';
+              - generic [ref=e356]: "export default function App() {"
+              - generic [ref=e358]: return (
+              - generic [ref=e360]: <div className="min-h-screen bg-gray-50 py-12
+              - generic [ref=e362]: px-4">
+              - generic [ref=e364]: <div className="max-w-6xl mx-auto">
+              - generic [ref=e366]: <h1 className="text-4xl font-bold
+              - generic [ref=e368]: text-center mb-12 text-gray-900">
+              - generic [ref=e370]: Simple, Transparent Pricing
+              - generic [ref=e372]: </h1>
+              - generic [ref=e376]: <div className="grid grid-cols-1
+              - generic [ref=e378]: md:grid-cols-3 gap-8">
+              - generic [ref=e380]: <PricingCard
+              - generic [ref=e382]: name="Starter"
+              - generic [ref=e384]: price="29"
+              - generic [ref=e386]: description="Perfect for getting
+              - generic [ref=e388]: started"
+              - generic [ref=e390]: "features={["
+              - generic [ref=e392]: "\"Up to 10 projects\","
+              - generic [ref=e394]: "\"Basic analytics\","
+              - generic [ref=e396]: "\"Community support\","
+              - generic [ref=e398]: "\"1 GB storage\""
+              - generic [ref=e400]: "]}"
+              - generic [ref=e402]: "highlighted={false}"
+              - generic [ref=e404]: />
+            - textbox "Editor content" [ref=e408]
+  - alert [ref=e47]
+  - generic [ref=e409]:
+    - alert
+    - alert
